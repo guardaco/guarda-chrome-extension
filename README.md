@@ -54,14 +54,15 @@ If the extension is installed in the browser, the popup for payment will open, o
 
 Example:
 ```html
-<a target="_blank" href="https://guarda.co/app/send?amount=0.001&currencyTo=btc&addressTo=18cBEMRxXHqzWWCxZNtU91F5sbUNKqweqe">
+<a target="_blank" href="https://guarda.co/app/send?amount=0.001&currencyFrom=btc&addressTo=1BZS3jJSCQRJiZJUaaS9t2yYv32nJ4NYcQ">
   Pay with guarda
 </a>
 ```
 Search params:
 * amount: number
-* currencyTo: string
 * addressTo: string
-* addressFrom: string
-* addressTo: string
+* currencyFrom: string
+* gasLimit: string
+* gasPrice: string
+* nonce: string
 * extraId: string
