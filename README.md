@@ -1,5 +1,6 @@
 # Guarda Chrome Extension
 --------------
+### What is Guarda Chrome Extension?
 Guarda Extension allows accessing DApps (Decentralised Applications) working on Ethereum, Bitcoin and other blockchains. The access is performed through integrating Guarda Wallet with the Chrome Browser web page.
 
 ### How to work with code?
