@@ -1,9 +1,13 @@
 # Guarda Chrome Extension
 --------------
-Guarda Extension allows to access DApps, that works with Ethereum, Bitcoin and other blockchains, directly from Chrome Browser. It integrates Guarda Wallet on the web page.
+Guarda Extension allows accessing DApps (Decentralised Applications) working on Ethereum, Bitcoin and other blockchains. The access is performed through integrating Guarda Wallet with the Chrome Browser web page.
+
+### How to work with code?
+How to work with this code?
+If you want to interact with a blockchain from your web page, you will need web3. We’ve re-developed it to provide access to a wallet without accessing the user’s private keys.
 
 ### Web3
-The Guarda Extension exposes the web3 API by an injected web3 object which you can access via JavaScript:
+Guarda Extension exposes the web3 API with an injected web3 object that is accessible though JavaScript:
 ``` javascript
 window.addEventListener('load', function() {
   // Checking if Web3 has been injected by the browser
@@ -26,7 +30,7 @@ window.addEventListener('load', function() {
 })
 ```
 ### Wallets api:
-Using wallets api you can access such a user’s wallet information as an address and balance.
+You can access the wallet public addresses and balances with the wallet’s API.
 
 ```javascript
 // Check is extension is unlocked
@@ -48,9 +52,9 @@ window.addEventListener('load', () => {
 ```
 
 ### Deep Links:
-You can add deeplinks (buttons) to the web page. Deeplinks allow users to pay easily.
+You can add the deeplinks (buttons) to a web page to ease the payment process.
 
-If the extension is installed in the browser, the popup for payment will open, otherwise, it will be redirected to [guarda.co](https://guarda.co)
+The payment popup will appear immediately with the Extension installed. In case it is not, you will be redirected to [guarda.co](https://guarda.co)
 
 Example:
 ```html
