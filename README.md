@@ -5,8 +5,7 @@ Guarda Extension allows accessing DApps (Decentralised Applications) working on 
 
 ![Guarda Chrome Extension](guarda_extension.png?raw=true "Guarda Chrome Extension")
 
-### How to work with code?
-How to work with this code?
+### How to work with the code?
 If you want to interact with a blockchain from your web page, you will need web3. We’ve re-developed it to provide access to a wallet without accessing the user’s private keys.
 
 ### Web3
